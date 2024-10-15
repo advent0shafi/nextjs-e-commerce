@@ -30,14 +30,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }, [])
 
-  const login = async (email: string, password: string) => {
+  const login = async (email: string, ) => {
     // Implement your login logic here
     // This is just a placeholder, replace with actual API call
     setUser({ id: '1', email })
     localStorage.setItem('token', 'fake-token')
   }
 
-  const signup = async (email: string, password: string) => {
+  const signup = async (email: string, ) => {
     // Implement your signup logic here
     // This is just a placeholder, replace with actual API call
     setUser({ id: '1', email })

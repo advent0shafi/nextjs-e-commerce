@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui";
-export interface Product {
+ interface Product {
   id: number;
   name: string;
   description: string;
@@ -10,7 +10,7 @@ export interface Product {
   rating: number;
   reviews: number;
 }
-export const products: Product[] = [
+ const products: Product[] = [
   {
     id: 1,
     name: 'Imperial Necklace',
